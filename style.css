@@ -1,0 +1,109 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: rgb(180, 226, 253);
+    display: flex;
+    flex-direction: column;
+    width: inherit;
+}
+
+header {
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 6rem;
+    padding-top: 20px;
+    background: linear-gradient(#073ac7, #0f2c7c, #073ac7);
+    border-bottom: solid 2px rgb(123, 147, 253);
+    opacity: 98%;
+    transition: all 0.4s linear;
+}
+
+header h1 {
+    align-self: flex-start;
+    transition: all 0.4s linear;
+}
+
+h1 {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 150%;
+    width: 50%;
+    height: fit-content;
+    /* margin-top: 1%; */
+    margin-bottom: 4%;
+    padding: 5px;
+    padding-right: 20px;
+    border-top: solid 3px;
+    border-right: solid 3px;
+    border-bottom: solid 3px;
+    border-radius: 5px 5px;
+    background-color: rgb(110, 101, 230);
+    color: rgb(255, 255, 255);
+    box-shadow: 10px 10px 30px black;
+    transition: all 0.4s linear;
+}
+
+nav {
+    /* margin-bottom: 1%; */
+    transition: all 0.4s linear;
+
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    transition: all 0.4s linear;
+}
+
+ul li {
+    display: flex;
+    width: 98%;
+    justify-content: center;
+    font-size: 0.5rem;
+    font-weight: bolder;
+    padding: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    border: solid 1px;
+    border-radius: 10px;
+    background-color: rgba(107, 220, 255, 0.815);
+    color: rgb(255, 255, 255);
+    transition: font-size .5s 0s;
+    transition: all 0.4s linear;
+}
+
+
+
+
+ul li:hover {
+    font-size: 115%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(169, 115, 201);
+    box-shadow: 10px 10px 30px black;
+    cursor: pointer;
+}
+
+ul li:active {
+    border: 2px inset rgb(124, 124, 124);
+    background-color: rgba(153, 137, 158, 0.815);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+ul li:visited {
+    border: 2px inset rgb(124, 124, 124);
+    background-color: rgba(153, 137, 158, 0.815);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
