@@ -107,3 +107,201 @@ ul li:visited {
     cursor: pointer;
 }
 
+.cool-sam {
+    height: 350px;
+    width: 100%;
+    margin-top: 200px;
+    margin-bottom: 30px;
+    background-image: url("./images/sunglasses.PNG");
+    background-size: cover;
+    background-position: center;
+    /* padding-top: 5rem;
+    background-color: #073ac7; */
+    opacity: 50%;
+    border-top: solid 3px #073ac7;
+    border-bottom: solid 3px black;
+    transition: opacity 1s 0s;
+}
+
+article {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+h2 {
+    font-size: 400%;
+    text-align: center;
+    align-self: center;
+    padding: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background: linear-gradient(0.25turn, rgb(97, 146, 236), #2a2aa5, rgb(97, 146, 236));
+    color: rgb(236, 210, 243);
+    border-top: solid 3px;
+    border-bottom: solid 3px;
+    /* border-radius: 5px; */
+    /* box-shadow: 15px 15px 10px black; */
+}
+
+.about-me {
+    padding: 25px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about-title-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.sam-images {
+    display: flex;
+    justify-content: center;
+}
+
+.young-sam {
+    position: relative;
+    transition: opacity .5s ease-in-out;
+}
+
+.wedding-sam {
+    position: absolute;
+}
+
+.young-sam, .wedding-sam {
+    width: 350px;
+    height: 275px;
+    border: solid 3px rgb(206, 206, 206);
+    border-radius: 10px;
+    align-self: center;
+}
+
+.about-me-title {
+    margin-top: 8rem;
+}
+
+.about-text {
+    font-size: 90%;
+    line-height: 250%;
+    height: 300px;
+    padding: 20px;
+    overflow: scroll;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: flex;
+    border-left: solid 2px rgb(32, 107, 245);
+    border-right: solid 2px rgb(32, 107, 245);
+    /* border-radius: 10px; */
+    background: linear-gradient(#dbe6fc, #9e9cf5);
+    color: rgb(0, 0, 0);
+    transition: visibility ease-in 0s .75s; 
+}
+
+.projects-title {
+    margin-top: 8rem;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    background-color: rgb(97, 146, 236);
+    padding-bottom: 200px;
+}
+
+.apps-title {
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(#400583, #000001, #400583);
+    color: rgb(236, 210, 243);
+}
+
+.main-app-block, .application-block {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(#0A23A4, #010621);
+    color: rgb(255, 255, 255);
+    padding: unset;
+    margin: 10px;
+    margin-bottom: 30px;
+    border: solid 3px rgb(46, 46, 46);
+    border-radius: 20px;
+    transition: width .5s 0s;
+}
+
+.main-app-block {
+    text-align: center;
+    width: 80%;
+}
+
+.application-section {
+    display: flex;
+    justify-content: center;
+}
+
+.application-block {
+    display:block;
+    width: 80%;
+    text-align: center;
+}
+
+.main-app {
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+    opacity: 60%;
+}
+
+.application {
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+    opacity: 60%;
+}
+
+
+h4 {
+    font-size: 75%;
+    letter-spacing: normal;
+    color: white;
+}
+
+.contact-w-nav {
+    align-items: center;
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.info li {
+    margin: 15px;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: auto;
+    background: linear-gradient(#fff9ac, #f8eb75);
+    color: black;
+    box-shadow: 15px 15px 10px black;
+    font-size: 150%;
+    transition: font-size .5s 0s;
+    transition: transform .5s 0s;
+}
+
+.info li:hover {
+    background: linear-gradient(#fffbc5, #fcf299);
+    transform: scale(1.05);
+    font-size: 155%;
+}
+
+
+pre {
+    -moz-user-select: all;
+    -webkit-user-select: all;
+    -ms-user-select: all;
+    user-select: all;
+}
+
