@@ -481,6 +481,7 @@ pre {
         margin: unset;
         margin-top: 2%;
         margin-bottom: 2%;
+        padding-right: 50px;
     }
 
     h2 {
@@ -570,16 +571,6 @@ pre {
         width: 95%;
         text-align: center;
     }
-
-    /* .apps-row-one {
-        display: flex;
-        flex-direction: row;
-        justify-self: center;
-    }
-    .apps-row-two {
-        display: flex;
-        flex-direction: row;
-    } */
 
     .info li {
         font-size: 150%;
