@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 function rollup(ev) {
     console.log(window.scrollY);
-    if (window.scrollY > 115) {
+    if (window.scrollY > 300) {
         document.body.classList.remove("med");
         document.body.classList.add("up");
     } else if (window.scrollY > 60) {

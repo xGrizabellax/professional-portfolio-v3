@@ -76,7 +76,7 @@ ul li {
     margin-bottom: 1%;
     border: solid 1px;
     border-radius: 10px;
-    background-color: rgba(107, 220, 255, 0.815);
+    background-color: rgba(175, 236, 255, 0.815);
     color: rgb(255, 255, 255);
     transition: font-size .5s 0s;
     transition: all 0.4s linear;
@@ -234,6 +234,7 @@ h2 {
 .main-app-block {
     text-align: center;
     width: 80%;
+    margin-bottom: 3rem;
 }
 
 .application-section {
@@ -245,6 +246,7 @@ h2 {
     display:block;
     width: 80%;
     text-align: center;
+    margin-bottom: 3rem;
 }
 
 .main-app {
@@ -259,6 +261,29 @@ h2 {
     height: 100%;
     border-radius: 16px;
     opacity: 60%;
+}
+
+.app-name {
+    font-size: 125%;
+    background: linear-gradient(0.25turn, rgb(97, 146, 236), blue, rgb(97, 146, 236));
+    margin-bottom: 3rem;
+    margin-top: 5px;
+}
+
+.application-block:hover .app-name {
+    font-size: 160%;
+    background: linear-gradient(0.25turn, rgb(224, 255, 137), rgb(193, 214, 0), rgb(224, 255, 137));
+    color: #000001;
+    border-radius: 20px;
+    margin-top: 5px;
+}
+
+.main-app-block:hover .app-name {
+    font-size: 160%;
+    background: linear-gradient(0.25turn, rgb(224, 255, 137), rgb(193, 214, 0), rgb(224, 255, 137));
+    color: #000001;
+    border-radius: 20px;
+    margin-top: 5px;
 }
 
 
@@ -464,7 +489,7 @@ pre {
     }
 
     ul li {
-        font-size: 1.3rem;
+        font-size: 1.0rem;
         margin-right: 10px;
         font-weight: bolder;
     }
@@ -561,6 +586,12 @@ pre {
     }
     .info li:hover {
         font-size: 165%;
+    }
+
+    .old-phone {
+        width: 350px;
+        height: 200px;
+        margin-top: 5rem;
     }
 }
 
