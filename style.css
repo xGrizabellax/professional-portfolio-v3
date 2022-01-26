@@ -19,7 +19,7 @@ header {
     min-height: 6rem;
     padding-top: 20px;
     background: linear-gradient(#073ac7, #0f2c7c, #073ac7);
-    border-bottom: solid 2px rgb(123, 147, 253);
+    border-bottom: solid 2px rgb(180, 194, 255);
     opacity: 98%;
     transition: all 0.4s linear;
 }
