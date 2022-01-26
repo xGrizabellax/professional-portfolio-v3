@@ -19,7 +19,7 @@ header {
     min-height: 6rem;
     padding-top: 20px;
     background: linear-gradient(#073ac7, #0f2c7c, #073ac7);
-    border-bottom: solid 2px rgb(180, 194, 255);
+    border-bottom: solid 2px rgb(217, 224, 255);
     opacity: 98%;
     transition: all 0.4s linear;
 }
@@ -286,11 +286,13 @@ h4 {
     width: auto;
     background: linear-gradient(#fff9ac, #f8eb75);
     color: black;
-    box-shadow: 15px 15px 10px black;
+    /* box-shadow: 15px 15px 10px black; */
     font-size: 150%;
     transition: font-size .5s 0s;
     transition: transform .5s 0s;
 }
+
+
 
 .info li:hover {
     background: linear-gradient(#fffbc5, #fcf299);
@@ -473,6 +475,9 @@ pre {
 
     .up header {
         min-height: 2rem;
+        /* background: unset;
+        background-color: #33a3ff;
+        opacity: 98%; */
     }
     
     .up header h1 {
@@ -493,8 +498,12 @@ pre {
         margin: unset;
     }
 
+
     .med header {
         min-height: 2rem;
+        /* background: unset;
+        background-color: #2d6dc2;
+        opacity: 100%; */
     }
     
     .med header h1 {
