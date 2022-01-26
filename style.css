@@ -171,9 +171,10 @@ h2 {
 .young-sam, .wedding-sam {
     width: 350px;
     height: 275px;
-    border: solid 3px rgb(206, 206, 206);
+    border: solid 1px rgb(0, 0, 0);
     border-radius: 10px;
     align-self: center;
+    box-shadow: 0px 0px 40px 10px rgb(30, 89, 199);
 }
 
 .about-me-title {
