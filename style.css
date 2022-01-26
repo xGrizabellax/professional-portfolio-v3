@@ -278,30 +278,10 @@ h4 {
     justify-content: space-between;
 }
 
-.info li {
-    margin: 15px;
-    margin-left: 10%;
-    margin-right: 10%;
-    width: auto;
-    background: linear-gradient(#fff9ac, #f8eb75);
-    color: black;
-    box-shadow: 15px 15px 10px black;
-    font-size: 150%;
-    transition: font-size .5s 0s;
-    transition: transform .5s 0s;
-}
-
-.info li:hover {
-    background: linear-gradient(#fffbc5, #fcf299);
-    transform: scale(1.05);
-    font-size: 155%;
-}
 
 
-pre {
-    -moz-user-select: all;
-    -webkit-user-select: all;
-    -ms-user-select: all;
-    user-select: all;
-}
+
+
+
+
 
