@@ -446,4 +446,111 @@ pre {
 }
 
 
+@media screen and (min-width: 1024px) {
+
+    h1 {
+        font-size: 450%;
+        margin: unset;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+
+    h2 {
+        font-size: 300%;
+        letter-spacing: 1px;
+    }
+
+    ul li {
+        font-size: 1.3rem;
+        margin-right: 10px;
+        font-weight: bolder;
+    }
+
+    ul li:hover {
+        font-size: 110%;
+    }
+
+    .up header {
+        min-height: 2rem;
+    }
+    
+    .up header h1 {
+        font-size: 2rem;
+        padding: 0.25rem 1rem;
+        width: 40%;
+        justify-content: center;
+        margin-bottom: 0.5rem;
+        margin-top: 1rem;
+    }
+    
+    .up nav a {
+        font-size: 0.8rem;
+        margin: unset;
+    }
+    
+    .up ul {
+        margin: unset;
+    }
+
+    .med header {
+        min-height: 2rem;
+    }
+    
+    .med header h1 {
+        font-size: 3.5rem;
+        padding: 0.25rem 1rem;
+        width: 50%;
+        justify-content: center;
+        padding-left: 2rem;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    }
+    
+    .med nav a {
+        font-size: 1rem;
+        margin: unset;
+    }
+
+    .cool-sam {
+        height: 500px;
+        margin-top: 235px;
+    }
+
+    .young-sam, .wedding-sam {
+        width: 450px;
+        height: 375px;
+    }
+
+    .about-title-text {
+        align-items: center;
+    }
+
+    .about-text {
+        width: 70%;
+        font-size: 80%;
+        line-height: 200%;
+    }
+
+    .apps-title {
+        width: 95%;
+        text-align: center;
+    }
+
+    /* .apps-row-one {
+        display: flex;
+        flex-direction: row;
+        justify-self: center;
+    }
+    .apps-row-two {
+        display: flex;
+        flex-direction: row;
+    } */
+
+    .info li {
+        font-size: 150%;
+    }
+    .info li:hover {
+        font-size: 165%;
+    }
+}
 
