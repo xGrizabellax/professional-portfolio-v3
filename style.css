@@ -355,7 +355,95 @@ pre {
 }
 
 
+@media screen and (min-width: 768px) {
+    
+    header {
+        width: 100%;
+        padding-top: unset;
+        padding-bottom: unset;
+    }
 
+    header nav {
+        align-self: flex-end;
+    }
+
+    nav {
+        margin-bottom: 0;
+    }
+
+    h1 {
+        font-size: 350%;
+        width: 50%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        justify-content: flex-end;
+    }
+
+    nav {
+        width: 50%;
+        margin-right: 10px;
+    }
+
+    
+
+    ul {
+        flex-direction: row;
+    }
+
+    ul li {
+        font-size: 80%;
+        padding-right: 0;
+        padding-left: 0;
+        margin-left: 2%;
+        margin-right: unset;
+    }
+
+    ul li:hover {
+        font-size: 90%;
+    }
+
+    .cool-sam {
+        height: 400px;
+        /* margin-top: 180px; */
+    }
+
+    h2 {
+        font-size: 400%;
+        justify-content: center;
+    }
+
+    .main-app-block {
+        width: 55%;
+    }
+    
+    .application-block {
+        width: 35%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+    }
+
+    .main-app-block:hover {
+        width: 60%;
+    }
+    /* .application-block:hover {
+        width: 40%;
+    } */
+
+    .old-phone {
+        width: 350px;
+        height: 200px;
+    }
+
+    .info li {
+        font-size: 125%;
+    }
+
+    .info li:hover {
+        font-size: 140%;
+    }
+}
 
 
 
