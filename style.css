@@ -552,6 +552,8 @@ pre {
     .cool-sam {
         height: 500px;
         margin-top: 235px;
+        background-size: 1575px;
+        background-position-y: 600px;
     }
 
     .young-sam, .wedding-sam {
