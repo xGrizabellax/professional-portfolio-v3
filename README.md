@@ -1,4 +1,5 @@
-# professional-portfolio-v3
+# professional-portfolio-v3 ![License: MIT](<https://img.shields.io/badge/License-MIT-yellow.svg>)
+
 A re-re-updated version of my professional portfolio. With more recent assignments appended including the newly finished Project #1, as well as new functionality we have learned during the first third of this course.
 
 Newly Updated Portfolio Landing:
@@ -7,3 +8,21 @@ Newly Updated Portfolio Landing:
 
 Updated Projects w/ a Shrinking Header:
 ![Screen Shot 2022-01-28 at 2 12 40 AM](https://user-images.githubusercontent.com/88065363/151511269-9bdc2dfd-34aa-4331-b9f9-ec61f889b0c5.png)
+
+
+
+  ## Questions:
+  For any further assistance, you may contact me at:
+
+  * Github: [xGrizabellax](<https://github.com/xGrizabellax>)
+
+  OR
+
+  * Email: sampagecode@gmail.com
+
+  ---
+  ___
+
+# License
+  ## MIT
+  This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
