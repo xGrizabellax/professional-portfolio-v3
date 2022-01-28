@@ -162,10 +162,12 @@ h2 {
 .young-sam {
     position: relative;
     transition: opacity .5s ease-in-out;
+    margin-top: 100px;
 }
 
 .wedding-sam {
     position: absolute;
+    margin-top: 50px;
 }
 
 .young-sam, .wedding-sam {
@@ -553,8 +555,8 @@ pre {
     }
 
     .young-sam, .wedding-sam {
-        width: 450px;
-        height: 375px;
+        width: 500px;
+        height: 425px;
     }
 
     .about-title-text {
