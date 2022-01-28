@@ -51,9 +51,7 @@ h1 {
 }
 
 nav {
-    /* margin-bottom: 1%; */
     transition: all 0.4s linear;
-
 }
 
 ul {
@@ -87,7 +85,7 @@ ul li {
 ul li:hover {
     font-size: 115%;
     background-color: rgb(255, 255, 255);
-    color: rgb(255, 255, 255);
+    color: rgb(0, 48, 104);
     box-shadow: 10px 10px 30px black;
     cursor: pointer;
 }
@@ -390,6 +388,10 @@ pre {
 
 .application-block:hover .application {
     opacity: 100%;
+}
+
+.contact-anchors:hover {
+    color: #0A23A4;
 }
 
 
