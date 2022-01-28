@@ -35,7 +35,6 @@ h1 {
     font-size: 150%;
     width: 50%;
     height: fit-content;
-    /* margin-top: 1%; */
     margin-bottom: 4%;
     padding: 5px;
     padding-right: 20px;
@@ -43,9 +42,11 @@ h1 {
     border-right: solid 3px;
     border-bottom: solid 3px;
     border-radius: 5px 5px;
-    background-color: rgb(110, 101, 230);
-    color: rgb(255, 255, 255);
-    box-shadow: 10px 10px 30px black;
+    background: linear-gradient(0.25turn, rgb(33, 27, 114), rgb(80, 111, 248));
+    color: rgb(252, 224, 70);
+    font-style: italic;
+    box-shadow: 5px 5px 30px black;
+    text-shadow: 2px 2px black;
     transition: all 0.4s linear;
 }
 
@@ -68,7 +69,7 @@ ul li {
     justify-content: center;
     font-size: 0.5rem;
     font-weight: bolder;
-    padding: 5px;
+    padding: 4px;
     padding-right: 10px;
     padding-left: 10px;
     margin-left: 1%;
@@ -76,19 +77,17 @@ ul li {
     margin-bottom: 1%;
     border: solid 1px;
     border-radius: 10px;
-    background-color: rgba(175, 236, 255, 0.815);
-    color: rgb(255, 255, 255);
+    background: linear-gradient(rgba(0, 50, 107, 0.815), rgba(0, 21, 46, 0.815));
+    color: rgb(248, 236, 68);
     transition: font-size .5s 0s;
     transition: all 0.4s linear;
 }
 
 
-
-
 ul li:hover {
     font-size: 115%;
     background-color: rgb(255, 255, 255);
-    color: rgb(169, 115, 201);
+    color: rgb(255, 255, 255);
     box-shadow: 10px 10px 30px black;
     cursor: pointer;
 }
@@ -100,11 +99,19 @@ ul li:active {
     cursor: pointer;
 }
 
-ul li:visited {
+ul li:focus {
     border: 2px inset rgb(124, 124, 124);
-    background-color: rgba(153, 137, 158, 0.815);
-    color: rgb(255, 255, 255);
+    background-color: rgba(2, 91, 192, 0.815);
+    color: rgb(248, 236, 68);
     cursor: pointer;
+}
+
+.top-nav-button {
+    color: #faf62b;
+}
+
+.top-nav-button:hover {
+    color: #e4be17;
 }
 
 .cool-sam {
@@ -136,9 +143,10 @@ h2 {
     margin-top: 25px;
     margin-bottom: 25px;
     background: linear-gradient(0.25turn, rgb(97, 146, 236), #2a2aa5, rgb(97, 146, 236));
-    color: rgb(236, 210, 243);
-    border-top: solid 3px;
-    border-bottom: solid 3px;
+    color: rgb(255, 233, 107);
+    text-shadow: 2px 2px black;
+    border-top: solid 3px rgb(252, 224, 70);
+    border-bottom: solid 3px rgb(252, 224, 70);
     /* border-radius: 5px; */
     /* box-shadow: 15px 15px 10px black; */
 }
@@ -274,17 +282,17 @@ h2 {
 
 .application-block:hover .app-name {
     font-size: 160%;
-    background: linear-gradient(0.25turn, rgb(224, 255, 137), rgb(193, 214, 0), rgb(224, 255, 137));
+    background: linear-gradient(0.25turn, rgb(97, 146, 236), rgb(255, 242, 56), rgb(97, 146, 236));
     color: #000001;
-    border-radius: 20px;
+    border-radius: 5px;
     margin-top: 5px;
 }
 
 .main-app-block:hover .app-name {
     font-size: 160%;
-    background: linear-gradient(0.25turn, rgb(224, 255, 137), rgb(193, 214, 0), rgb(224, 255, 137));
+    background: linear-gradient(0.25turn, rgb(97, 146, 236), rgb(255, 242, 56), rgb(97, 146, 236));
     color: #000001;
-    border-radius: 20px;
+    border-radius: 5px;
     margin-top: 5px;
 }
 
@@ -367,12 +375,12 @@ pre {
 
 .main-app-block:hover {
     box-shadow: inset 0 0 20px 20px white;
-    box-shadow: 15px 15px 10px black;
+    box-shadow: 10px 10px 10px black;
     border: solid 3px rgb(255, 252, 48);
 }
 .application-block:hover {
     box-shadow: inset 0 0 20px 20px white;
-    box-shadow: 15px 15px 10px black;
+    box-shadow: 10px 10px 10px black;
     border: solid 3px rgb(255, 252, 48);
 }
 
@@ -491,14 +499,21 @@ pre {
         letter-spacing: 1px;
     }
 
+    nav {
+        width: 60%;
+    }
+
     ul li {
-        font-size: 1.0rem;
-        margin-right: 10px;
+        font-size: 1.3rem;
         font-weight: bolder;
     }
 
+    ul {
+        margin-bottom: 0;
+    }
+
     ul li:hover {
-        font-size: 110%;
+        font-size: 120%;
     }
 
     .up header {
@@ -551,7 +566,7 @@ pre {
 
     .cool-sam {
         height: 500px;
-        margin-top: 235px;
+        margin-top: 230px;
         background-size: 1575px;
         background-position-y: 600px;
     }
