@@ -1,4 +1,4 @@
-# professional-portfolio-v3 ![License: MIT](<https://img.shields.io/badge/License-MIT-yellow.svg>)
+# professional-portfolio-v3
 
 A re-re-updated version of my professional portfolio. With more recent assignments appended including the newly finished Project #1, as well as new functionality we have learned during the first third of this course.
 
@@ -19,10 +19,3 @@ Updated Projects w/ a Shrinking Header:
   OR
 
   * Email: sampagecode@gmail.com
-
-  ---
-  ___
-
-# License
-  ## MIT
-  This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
